@@ -19,7 +19,7 @@ def index():
     When you request the root path, you'll get the index.html template.
 
     """
-    return flask.render_template("index2.html")
+    return flask.render_template("lines_dual_measure.html")
 
 
 # @app.route("/data")
